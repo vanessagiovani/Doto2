@@ -1,0 +1,409 @@
+<html>
+    <head>
+        <title>Luna</title>
+        <link rel = "stylesheet" href = "../css/freestyling.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container-header">
+                <div class="logo">
+                    <a class="logoo" href="../html/home.html">
+                        <img src="../assets/logo.png" width="100px" height="75px">
+                    </a>
+                </div>
+                <div class="name">
+                   DOTO 2
+                </div>
+        
+                <div class="register">
+                    <a class="test" href="../html/registerPage.html">
+                        <img alt="Register" src="../assets/PlayNowForFree.png">
+                    </a>
+                </div>
+                <ul class="navbar">
+                    <li class="burger">
+                        <a href='#' class="icon" onclick="openNavbar()">
+                            <i class="fa fa-bars" style="font-size: larger;"></i>
+                        </a>
+                    </li>
+                    <div id="navbar-content" class= "top-nav responsive">
+                        <a href="../html/home.html">Home</a>
+                        <a href="../html/hero_list.html">Heroes</a>
+                        <a href="../html/mechanics.html">Game Mechanic</a>
+                        <a href="../html/merchandise.html">Merchandise</a>
+                        <a href="../html/registerPage.html">Registration</a>
+                    </div>
+                </ul>
+            </div>        
+        </header>
+        <div id = "main">
+            <div class = "hero_header">
+                <img class = "hero_image" src = "../assets/Doto Heroes/Luna/Luna Photo Cropped.png" alt = "">
+                <div class = "hero_name">
+                    <p>LUNA</p>
+                </div>
+                <div class = "hero_description">
+                    <p>Accompanied by her allied beast, Luna swiftly comes into battle. She fights using her glaives which can bounce to multiple targets. But not just that, she can call down the power of the moon as a lunar barrage crushes her enemies.</p>
+                </div>
+            </div>            
+            <div class = "abilities">
+                <div class = "abilities_heading">
+                    <p>ABILITIES</p>
+                </div>
+                <img id = "skill1" class = "skills" src = "../assets/Doto Heroes/Luna/Luna Skill 1.png" alt = "">
+                <img id = "skill2" class = "skills" src = "../assets/Doto Heroes/Luna/Luna Skill 2.png" alt = "">
+                <img id = "skill3" class = "skills" src = "../assets/Doto Heroes/Luna/Luna Skill 3.png" alt = "">
+                <img id = "skill4" class = "skills" src = "../assets/Doto Heroes/Luna/Luna Skill 4.png" alt = "">
+            </div>
+
+            <!-- Skill 4 -->
+            <div id="skill4_info">
+                <div id="header_skill">
+                    <p>ECLIPSE</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Showers random nearby enemies with strikes from Luna's current level of Lucent Beam. These beams do not stun their targets, and there is a maximum number of times that a single target can be struck. Also turns day into night for 10.0 seconds.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>No Target</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>AFFECTS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Allied Units</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE TYPE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p class="dmgTypeMagical">Magical</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>TOTAL BEAMS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>
+                            6 / 9 / 12</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>MAX BEAMS PER UNIT: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>5</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>RADIUS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>675</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>SCEPTER TOTAL BEAMS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>6 / 12 / 18</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>SCEPTER DURATION: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>1.8 / 3.6 / 5.4</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>SCEPTER CAST RANGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>2500</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ECLIPSE DURATION: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>2.4 / 4.2 / 6.0</p>
+                    </div>
+                </div>
+
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COOLDOWN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>140.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COST: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>150 / 200 / 250</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div id="skill3_info">
+                <div id="header_skill">
+                    <p>LUMINOSITY</p>
+                </div>
+                <div id="desc_skill">
+                    <p>After 3 attacks, Dawnbreaker powers up, charging her next attack with a critical hit that heals all allied heroes within 650 units around her for a portion of attack damage dealt. Creeps and neutral enemies provide less healing. Allies are healed for 35% of the amount.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Passive</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>BLESSING RADIUS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>1200</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE BONUS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>5 / 15 / 25 / 35</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>NIGHT VISION: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>250 / 500 / 750 / 1000</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div id="skill2_info">
+                <div id="header_skill">
+                    <p>MOON GLAIVES</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Empowers Luna's glaives, causing her attacks to bounce between enemy units. Deals less damage with each bounce.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Passive</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>BOUNCE RADIUS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>500</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>BOUNCES: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>3 / 4 / 5 / 6</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE REDUCTION PER BOUNCE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>50% / 44% / 38% / 32%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- skill 1 -->
+            <div id="skill1_info">
+                <div id="header_skill">
+                    <p>LUCENT BEAM</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Calls a beam of lunar energy down upon an enemy, damaging and briefly stunning them.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Unit Target</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>AFFECTS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Enemy Units</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE TYPE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p class="dmgTypeMagical">Magical</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>STUN DURATION: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>0.8</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>BEAM DAMAGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>75 / 150 / 225 / 300</p>
+                    </div>
+                </div>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COOLDOWN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>6.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COST: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>90 / 100 / 110 / 120</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "hero_buttons">
+                <a class = "previous_hero" href = "../html/lina.html">
+                    <p class = "change_hero">PREVIOUS HERO</p>
+                    <p class = "change_hero_name">LINA</p>
+                </a>
+                <a class = "all_heroes_button" href = "../html/hero_list.html">
+                    <p class = "back_to_hero_list">ALL HEROES</p>
+                </a>
+                <a class = "next_hero" href = "../html/lycan.html">
+                    <p class = "change_hero">NEXT HERO</p>
+                    <p class = "change_hero_name">LYCAN</p>
+                </a>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="logo2">
+                    <a class="logoo" href="../html/home.html">
+                        <img src="../assets/logo.png" width="160px" height="120px">
+                    </a>
+                </div>
+                <div class="name2">
+                    DOTO 2
+                 </div>
+                <div class="copyright">
+                    <p>Doto 2 and the Dota 2 logo are trademarks 
+                    and/or registered trademarks</p>
+                    <p>2021, all rights reserved.</p>
+                </div>
+                <div class="socmed">
+                    <div class="socmed-name1">
+                        Instagram
+                        <div class="account">
+                           <a href="https://www.instagram.com/">@doto2.official</a>
+                        </div>
+                    </div>
+                    <div class="socmed-name2">
+                        Facebook
+                        <div class="account">
+                            <a href="https://www.facebook.com/">@doto2game</a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../javascript/heroesSkill.js"></script>
+    </body>
+</html>

@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: #212121;
+    padding-top: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+}
+
+#heading_description{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17pt;
+    /* width: 1000px; */
+    color: white;
+    text-align: center;
+}
+
+#content{
+    background-color: #212121;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#hero_list{
+    margin: auto;
+    text-align: center;
+}
+
+#hero_table{
+    margin: auto;
+    text-align: center;
+    background-color: teal;
+}
+
+.heroes_choices{
+    display: inline-block;
+    width: 450px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17pt;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: transform .4s;
+    border: 1px solid black;
+    background-color: rgb(87, 87, 87);
+
+}
+
+.heroes_choices:hover{
+    transform: scale(1.35);
+}
+
+#main{
+    background-color: #212121;
+    margin-top: 85px;
+    padding-top: 50px;
+}
+
+.hero_image{
+    margin-top: 10px;
+    margin-right: 100px;
+    float: right;
+    width: 450px;
+    height: 400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.hero_name{
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero_description{
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17pt;
+    color: white;
+}
+
+.hero_header::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.abilities{
+    text-align: center;
+}
+
+.abilities_heading{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: white;
+}
+
+.skills{
+    margin-top: 3px;
+    padding: 3px;
+    width: 75px;
+    height: 75px;
+    transition: transform .4s;
+}
+
+.skills:hover{
+    transform: scale(1.25);
+}
+
+.previous_hero{
+    display: inline-block;
+    width: 40%;
+    height: 65px;
+    background-color: black;
+    text-decoration: none;
+    margin-right: -4.1px;
+    transition: filter 0.5s ease;
+}
+
+.previous_hero:hover{
+    filter: brightness(25%);
+}
+
+.change_hero{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.change_hero_name{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    font-weight: 600;
+    color: white;
+}
+
+.hero_buttons{
+    width: 100%;
+}
+
+.all_heroes_button{
+    display: inline-block;
+    width: 20%;
+    height: 65px;
+    background-color: #515151;
+    text-decoration: none;
+    margin-right: -4px;
+    transition: filter 0.5s ease;
+
+}
+
+.all_heroes_button:hover{
+    filter: brightness(70%);
+}
+
+.back_to_hero_list{
+    padding-top: 36px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.next_hero{
+    display: inline-block;
+    width: 40%;
+    height: 65px;
+    background-color: black;
+    text-decoration: none;
+    transition: filter 0.5s ease;
+}
+
+.next_hero:hover{
+    filter: brightness(25%);
+}
+
+footer{
+    padding-top: 20px;
+    background-color: bisque;
+    text-align: center;
+    justify-content: center;
+    font-family: bookAntiqua;
+}
+
+.name2{
+    color: darkred;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.copyright{
+    padding-top: 10px;
+    color: darkred;
+    font-size: 15px;
+}
+
+.socmed{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.socmed-name1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.socmed-name2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.account{
+    margin-left: 10px;
+}
+
+.account a {
+    padding: 14px 18px;
+    text-decoration: none;
+    color: darkred;
+}
+
+#skill1_info, #skill2_info, #skill3_info, #skill4_info{
+    background-color: rgb(65, 64, 64);
+    background-blend-mode: darken;
+    color: white;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+
+.ability{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#desc_skill{
+    padding-left: 5%;
+    margin-right: 40%;
+    margin-left: 35%;
+    font-weight: lighter;
+}
+
+#header_skill{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.info_skill{
+    opacity: 80%;
+    margin-right: 10px;
+}
+
+.dmgTypePhysical{
+    color: orange;
+}
+
+.dmgTypeMagical{
+    color: rgb(212, 0, 212);
+}

@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Register Page</title>
+        <link rel="stylesheet" href="../css/registerStyling.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+    </head>
+
+    <body>
+
+        <div id="logo">
+            <center>
+                <a class="logoo" href="../html/home.html">
+                    <img src="../assets/logo.png" id="logo_img">
+                </a>
+            </center>
+        </div>
+
+        <form>
+            <div id="title">
+                <center>
+                    <h2>REGISTER FORM</h2>
+                </center>
+            </div>
+            <div>
+                <label>Username: </label>
+                <input type="text" id="username" placeholder="username">
+            </div>
+            <br>
+
+            <div>
+                <label>Email: </label>
+                <input type="text" id="email" placeholder="email">
+            </div>
+            <br>
+
+            <div>
+                <label>Password: </label>
+                <input type="text" id="password" placeholder="password">
+            </div>
+            <br>
+
+            <div id="regionDiv">
+                <label>Region: </label>
+                <select id="region">
+                    <option selected hidden>Choose Here</option>
+                    <option>Indonesia</option>
+                    <option>Malaysia</option>                    
+                    <option>Korea</option>   
+                    <option>Thailand</option>                  
+                    <option>Japan</option>  
+                    <option>America</option>  
+                    <option>Taiwan</option>  
+                </select>
+            </div>
+            <br>
+
+            <div id="dateDiv">
+                <label>Date of Birth: </label>
+                <input type="date" id="dob" value="yyyy-MM-dd" min="1970-01-01" max="2021-12-31">
+            </div>
+            <br>
+
+            <div id="err"></div>
+
+            <input type="button" value="SUBMIT" id="submitBtn" onclick="validate()">
+            <input type="reset" value="RESET" id="resetBtn" onclick="clearInner()">
+
+        </form>
+
+        <script type="text/JavaScript" src="../javascript/validating.js"></script>
+        
+
+        <footer>
+            <div class="footer">
+                <div class="name2">
+                    DOTO 2
+                 </div>
+                <div class="copyright">
+                    <p>Doto 2 and the Dota 2 logo are trademarks 
+                    and/or registered trademarks</p>
+                    <p>2021, all rights reserved.</p>
+                </div>
+                <div class="socmed">
+                    <div class="socmed-name1">
+                        Instagram
+                        <div class="account">
+                           <a href="https://www.instagram.com/">@doto2.official</a>
+                        </div>
+                    </div>
+                    <div class="socmed-name2">
+                        Facebook
+                        <div class="account">
+                            <a href="https://www.facebook.com/">@doto2game</a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

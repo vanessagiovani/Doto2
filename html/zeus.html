@@ -1,0 +1,388 @@
+<html>
+    <head>
+        <title>Zeus</title>
+        <link rel = "stylesheet" href = "../css/freestyling.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container-header">
+                <div class="logo">
+                    <a class="logoo" href="../html/home.html">
+                        <img src="../assets/logo.png" width="100px" height="75px">
+                    </a>
+                </div>
+                <div class="name">
+                   DOTO 2
+                </div>
+        
+                <div class="register">
+                    <a class="test" href="../html/registerPage.html">
+                        <img alt="Register" src="../assets/PlayNowForFree.png">
+                    </a>
+                </div>
+                <ul class="navbar">
+                    <li class="burger">
+                        <a href='#' class="icon" onclick="openNavbar()">
+                            <i class="fa fa-bars" style="font-size: larger;"></i>
+                        </a>
+                    </li>
+                    <div id="navbar-content" class= "top-nav responsive">
+                        <a href="../html/home.html">Home</a>
+                        <a href="../html/hero_list.html">Heroes</a>
+                        <a href="../html/mechanics.html">Game Mechanic</a>
+                        <a href="../html/merchandise.html">Merchandise</a>
+                        <a href="../html/registerPage.html">Registration</a>
+                    </div>
+                </ul>
+            </div>        
+        </header>
+        <div id = "main">
+            <div class = "hero_header">
+                <img class = "hero_image" src = "../assets/Doto Heroes/Zeus/Zeus Photo Cropped.png" alt = "">
+                <div class = "hero_name">
+                    <p>ZEUS</p>
+                </div>
+                <div class = "hero_description">
+                    <p>Zeus is a terrifying foe. He can use his lightning bolts to reveal the surroundings or zap multiple enemies in front of him. Wherever you are, do not be in the line of sight of Zeus.</p>
+                </div>
+            </div>            
+            <div class = "abilities">
+                <div class = "abilities_heading">
+                    <p>ABILITIES</p>
+                </div>
+                <img id = "skill1" class = "skills" src = "../assets/Doto Heroes/Zeus/Zeus Skill 1.png" alt = "">
+                <img id = "skill2" class = "skills" src = "../assets/Doto Heroes/Zeus/Zeus Skill 2.png" alt = "">
+                <img id = "skill3" class = "skills" src = "../assets/Doto Heroes/Zeus/Zeus Skill 3.png" alt = "">
+                <img id = "skill4" class = "skills" src = "../assets/Doto Heroes/Zeus/Zeus Skill 4.png" alt = "">
+            </div>
+
+            <!-- Skill 4 -->
+            <div id="skill4_info">
+                <div id="header_skill">
+                    <p>THUNDERGOD'S WRATH</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>No Target</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE TYPE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p class="dmgTypeMagical">Magical</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>TRUE SIGHT RADIUS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>500</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DURATION: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>3.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>300 / 400 / 500</p>
+                    </div>
+                </div>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COOLDOWN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>130.0 / 125.0 / 120.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COST: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>300 / 400 / 500</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div id="skill3_info">
+                <div id="header_skill">
+                    <p>STATIC FIELD</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Zeus shocks any enemy hit by his abilities, causing damage proportional to their current health.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Passive</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE TYPE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p class="dmgTypeMagical">Magical</p>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <!-- Skill 2 -->
+            <div id="skill2_info">
+                <div id="header_skill">
+                    <p>LIGHTNING BOLT</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Unit Target</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>AFFECTS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Enemy Units</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE TYPE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p class="dmgTypeMagical">Magical</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>125 / 200 / 275 / 350</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>SIGHT RADIUS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>750</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>SIGHT DURATION: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>4.5</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>CAST RANGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>700 / 750 / 800 / 850</p>
+                    </div>
+                </div>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COOLDOWN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>6.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COST: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>125 / 130 / 135 / 140</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- skill 1 -->
+            <div id="skill1_info">
+                <div id="header_skill">
+                    <p>ARC LIGHTNING</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Hurls a bolt of lightning that leaps through nearby enemy units.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Unit Target</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>AFFECTS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Enemy Units</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE TYPE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p class="dmgTypeMagical">Magical</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>75 / 100 / 125 / 150</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>JUMPS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>5 / 7 / 9 / 15</p>
+                    </div>
+                </div>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COOLDOWN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>1.6</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COST: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>80</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "hero_buttons">
+                <a class = "previous_hero" href = "../html/templar_assassin.html">
+                    <p class = "change_hero">PREVIOUS HERO</p>
+                    <p class = "change_hero_name">TEMPLAR ASSASSIN</p>
+                </a>
+                <a class = "all_heroes_button" href = "../html/hero_list.html">
+                    <p class = "back_to_hero_list">ALL HEROES</p>
+                </a>
+                <a class = "next_hero" href = "../html/chaos_knight.html">
+                    <p class = "change_hero">NEXT HERO</p>
+                    <p class = "change_hero_name">CHAOS KNIGHT</p>
+                </a>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="logo2">
+                    <a class="logoo" href="../html/home.html">
+                        <img src="../assets/logo.png" width="160px" height="120px">
+                    </a>
+                </div>
+                <div class="name2">
+                    DOTO 2
+                 </div>
+                <div class="copyright">
+                    <p>Doto 2 and the Dota 2 logo are trademarks 
+                    and/or registered trademarks</p>
+                    <p>2021, all rights reserved.</p>
+                </div>
+                <div class="socmed">
+                    <div class="socmed-name1">
+                        Instagram
+                        <div class="account">
+                           <a href="https://www.instagram.com/">@doto2.official</a>
+                        </div>
+                    </div>
+                    <div class="socmed-name2">
+                        Facebook
+                        <div class="account">
+                            <a href="https://www.facebook.com/">@doto2game</a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../javascript/heroesSkill.js"></script>
+    </body>
+</html>

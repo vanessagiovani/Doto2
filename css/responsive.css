@@ -1,0 +1,197 @@
+@media screen and (max-width: 800px) {
+
+    .burger a{
+        display: block;
+    }
+
+    .top-nav li{
+        display: none;
+    }
+    
+    .top-nav.responsive li{
+        display: block;
+        float: none;
+    }
+
+    .image{
+        max-width: 100%;
+        height: auto;
+    }
+        
+    .image2{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .intro-content{
+        font-size: smaller;
+    }
+
+    .title{
+        font-size: 25px;
+        padding: 50px;
+        margin-bottom: -50px;
+    }
+
+    .heroes-content{
+        font-size: smaller;
+    }
+
+    .mechanic{
+        font-size: 20px;
+    }
+
+    .title{
+        font-size: 19px;
+    }
+
+    .guide{
+        font-size: 14px;
+    }
+
+    .last-hit-video{
+        width: 300px;
+        height: 250px;
+        padding-left: 50px;
+    }
+
+    .minimap-image{
+        width: 300px;
+        height: 250px;
+    }
+
+    .gabung-resp{
+        display: flex;
+        padding-top: 30px;
+    }
+
+    .desc{
+        margin-left: 10px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .minimap-desc{
+        font-size: 12px;
+    }
+
+    .heroselection-desc{
+        font-size: 12px;
+    }
+
+    .role-desc{
+        font-size: 12px;
+    }
+
+    #heading{
+        font-size: 30pt;
+    }
+
+    #heading_description{
+        font-size: 15pt;
+    }
+
+    #hero_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroes_choices{
+        font-size: 10pt;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero_header{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_image{
+        width: 300px;
+        height: 250px;
+        justify-content: center;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .hero_name{
+        font-size: 25pt;
+        justify-content: center;
+        text-align: center;
+        margin-right: 100px;
+
+    }
+
+    #description_skill{
+        margin-right: 20%;
+        margin-left: 15%;
+    }
+
+    .hero_description{
+        font-size: 15pt;
+        justify-content: center;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .change_hero{
+        font-size: 10px;
+    }
+
+    .change_hero-name{
+        font-size: 10pt;
+    }
+
+    .all_heroes_button{
+        font-size: 11px;
+        width: 11%;
+    }
+
+    .hero_buttons{
+        display: flex;
+    }
+
+    .previous_hero{
+        width: 47%;
+    }
+
+    .next_hero{
+        padding-right: auto;
+        width: 47%;
+    }
+
+    .ability{
+        display: flex;
+        font-size: 13px;
+    }
+
+    #navbar-content a {
+        display: block;
+        text-align: left;
+        padding: 14px 18px;
+        text-decoration: none;
+        font-size: smaller
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    #content_background{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+
+}

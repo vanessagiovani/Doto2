@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: wheat;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    margin: 0 auto;
+    color: wheat;
+}
+
+.logo{
+    margin: 5px 20px;
+    margin-top: 8px;
+    width: 10%;
+}
+
+.name{
+    font-family: bookAntiqua;
+    color: wheat;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar-content {
+    z-index : 1;
+    background: lightgoldenrodyellow;
+    position: absolute;
+    min-width: 180px;
+    display: none;
+    color: darkslategray;
+}
+
+.navbar:hover #navbar-content{
+    display: block;
+}
+
+#navbar-content a {
+    display: block;
+    text-align: left;
+    padding: 14px 18px;
+    text-decoration: none;
+    color: darkred;
+}
+
+#navbar-content a:hover {
+	border: 2px solid white;
+    color: tomato;
+}
+  
+#navbar-content a.active {	
+	border: 2px solid white;
+    color: tomato;
+}
+
+.content{
+    margin-top: 90px;
+    color: whitesmoke;
+    font-family: Tahoma;
+    background-color: #212121;
+}
+
+.mechanic{
+    margin-top: 80px;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: bookAntiqua;
+    color: white;
+}
+
+.title{
+    padding: 50px 50px;
+    font-size: 40px;
+    color: wheat;
+}
+
+.desc{
+    color: white;
+}
+
+.minimap-desc{
+    color: white;
+} 
+
+.heroselection-desc{
+    color: white;
+} 
+
+.role-desc{
+    color: white;
+}
+
+.guide{
+    justify-content: center;
+    text-align: center;
+    color: #E1E1E1;
+    font-style: italic;
+}
+
+.last-hit-video{
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.miniresp{
+    max-width: 100%;
+    height: auto;
+}
+
+.lastresp{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.gank-resp{
+    max-width: 100%;
+    height: auto;
+}
+
+.desc{
+    justify-content: center;
+    text-align: center;
+}
+
+.gabung{
+    display: flex;
+    padding: 50px 50px;
+}
+
+.minimap-image{
+    padding-right: 30px;
+}
+
+.ganking-image{
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.heroselection{
+    background-image: url(../assets/heroselection.jpeg);
+    width: 450px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.heroselection-desc{
+    padding-left: 30px;
+}
+
+.heroselection:hover{
+    background-image: url(../assets/heroselection2.jpg);
+    width: 450px;
+    height: 300px;
+    transition: 1s;
+}
+
+.roleshover{
+    background-image: url(../assets/roles.jpg);
+    width: 450px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.roleshover:hover{
+    background-image: url(../assets/roles2.jpg);
+    width: 450px;
+    height: 300px;
+    transition: 1s;
+}
+
+.role-desc{
+    padding-left: 30px;
+}
+
+footer{
+    padding-top: 20px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    font-family: bookAntiqua;
+}
+
+.name2{
+    color: wheat;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.copyright{
+    padding-top: 10px;
+    color: wheat;
+    font-size: 15px;
+}
+
+.socmed{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.socmed-name1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.socmed-name2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.account{
+    margin-left: 10px;
+}
+
+.account a {
+    padding: 14px 18px;
+    text-decoration: none;
+    color: wheat;
+}

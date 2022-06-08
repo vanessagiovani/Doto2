@@ -1,0 +1,427 @@
+<html>
+    <head>
+        <title>Chaos Knight</title>
+        <link rel = "stylesheet" href = "../css/freestyling.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container-header">
+                <div class="logo">
+                    <a class="logoo" href="../html/home.html">
+                        <img src="../assets/logo.png" width="100px" height="75px">
+                    </a>
+                </div>
+                <div class="name">
+                   DOTO 2
+                </div>
+        
+                <div class="register">
+                    <a class="test" href="../html/registerPage.html">
+                        <img alt="Register" src="../assets/PlayNowForFree.png">
+                    </a>
+                </div>
+                <ul class="navbar">
+                    <li class="burger">
+                        <a href='#' class="icon" onclick="openNavbar()">
+                            <i class="fa fa-bars" style="font-size: larger;"></i>
+                        </a>
+                    </li>
+                    <div id="navbar-content" class= "top-nav responsive">
+                        <a href="../html/home.html">Home</a>
+                        <a href="../html/hero_list.html">Heroes</a>
+                        <a href="../html/mechanics.html">Game Mechanic</a>
+                        <a href="../html/merchandise.html">Merchandise</a>
+                        <a href="../html/registerPage.html">Registration</a>
+                    </div>
+                </ul>
+            </div>        
+        </header>
+        <div id = "main">
+            <div class = "hero_header">
+                <img class = "hero_image" src = "../assets/Doto Heroes/Chaos Knight/Chaos Knight Photo Cropped.png" alt = "">
+                <div class = "hero_name">
+                    <p>CHAOS KNIGHT</p>
+                </div>
+                <div class = "hero_description">
+                    <p>Chaos Knight is deadly due to his ability to summon a cavalry of clones. With it, he can demolish through enemy defenses easily and brutally. But there's no escape as well, he can rift reality to close the distance and give a finishing blow.</p>
+                </div>
+            </div>            
+            <div class = "abilities">
+                <div class = "abilities_heading">
+                    <p>ABILITIES</p>
+                </div>
+                <img id = "skill1" class = "skills" src = "../assets/Doto Heroes/Chaos Knight/Chaos Knight Skill 1.png" alt = "">
+                <img id = "skill2" class = "skills" src = "../assets/Doto Heroes/Chaos Knight/Chaos Knight Skill 2.png" alt = "">
+                <img id = "skill3" class = "skills" src = "../assets/Doto Heroes/Chaos Knight/Chaos Knight Skill 3.png" alt = "">
+                <img id = "skill4" class = "skills" src = "../assets/Doto Heroes/Chaos Knight/Chaos Knight Skill 4.png" alt = "">
+            </div>
+
+            <!-- Skill 4 -->
+            <div id="skill4_info">
+                <div id="header_skill">
+                    <p>PHANTASM</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Summons several phantasmal copies of the Chaos Knight from alternate dimensions. The phantasms are strong illusions that deal 100% damage, but take 325% damage.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>No Target</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>AFFECTS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Allied Heroes</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>NUMBER OF PHANTASMS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>1 / 2 / 3</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>PHANTASM DURATION: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>30.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>PHANTASM DAMAGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>100%</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>PHANTASM DAMAGE TAKEN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>325%</p>
+                    </div>
+                </div>
+
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COOLDOWN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>75.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COST: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>75 / 125 / 175</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div id="skill3_info">
+                <div id="header_skill">
+                    <p>CHAOS STRIKE</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Chaos Knight's attacks have a chance to deal a critical strike of varying strength, in addition to a lifesteal for percentage of the damage.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Passive</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>CHANCE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>30%</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>CRITICAL MIN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>120%</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>CRITICAL MAX: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>140% / 170% / 200% / 230%</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>CRITICAL LIFESTEAL: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>25% / 40% / 55% / 70%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div id="skill2_info">
+                <div id="header_skill">
+                    <p>REALITY RIFT</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Teleports Chaos Knight, any images he has, and the target unit to a point along the line between him and the target. Reduces armor of the enemy unit for 6.0 seconds.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Unit Target</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>AFFECTS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Enemy Units</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>CAST RANGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>550 / 600 / 650 / 700</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>PULL DISTANCE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>250 / 300 / 350 / 400</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ARMOR REDUCTION: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>3 / 4 / 5 / 6</p>
+                    </div>
+                </div>
+
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COOLDOWN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>15.0 / 12.0 / 9.0 / 6.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COST: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>50</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- skill 1 -->
+            <div id="skill1_info">
+                <div id="header_skill">
+                    <p>CHAOS BOLT</p>
+                </div>
+                <div id="desc_skill">
+                    <p>Throws a mysterious bolt of energy at the target unit. It stuns for a random duration and deals random damage.</p>
+                </div>
+
+                <br>
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>ABILITY: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Unit Target</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>AFFECTS: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>Enemy Units</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>DAMAGE TYPE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p class="dmgTypeMagical">Magical</p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>MINIMUM STUN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>1.3 / 1.5 / 1.8 / 2.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>MAXIMUM STUN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>2.2 / 2.8 / 3.4 / 4.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>MINIMUM DAMAGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>90 / 110 / 130 / 150</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>MAXIMUM DAMAGE: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>180 / 220 / 260 / 300</p>
+                    </div>
+                </div>
+               
+                <br>
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COOLDOWN: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>13.0 / 12.0 / 11.0 / 10.0</p>
+                    </div>
+                </div>
+
+                <div class="ability">
+                    <div class="info_skill">
+                        <p>COST: </p>
+                    </div>
+                    <div class="detail_skill">
+                        <p>110 / 120 / 130 / 140</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "hero_buttons">
+                <a class = "previous_hero" href = "../html/zeus.html">
+                    <p class = "change_hero">PREVIOUS HERO</p>
+                    <p class = "change_hero_name">ZEUS</p>
+                </a>
+                <a class = "all_heroes_button" href = "../html/hero_list.html">
+                    <p class = "back_to_hero_list">ALL HEROES</p>
+                </a>
+                <a class = "next_hero" href = "../html/dawnbreaker.html">
+                    <p class = "change_hero">NEXT HERO</p>
+                    <p class = "change_hero_name">DAWNBREAKER</p>
+                </a>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="logo2">
+                    <a class="logoo" href="../html/home.html">
+                        <img src="../assets/logo.png" width="160px" height="120px">
+                    </a>
+                </div>
+                <div class="name2">
+                    DOTO 2
+                 </div>
+                <div class="copyright">
+                    <p>Doto 2 and the Dota 2 logo are trademarks 
+                    and/or registered trademarks</p>
+                    <p>2021, all rights reserved.</p>
+                </div>
+                <div class="socmed">
+                    <div class="socmed-name1">
+                        Instagram
+                        <div class="account">
+                           <a href="https://www.instagram.com/">@doto2.official</a>
+                        </div>
+                    </div>
+                    <div class="socmed-name2">
+                        Facebook
+                        <div class="account">
+                            <a href="https://www.facebook.com/">@doto2game</a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="../javascript/heroesSkill.js"></script>
+    </body>
+</html>
